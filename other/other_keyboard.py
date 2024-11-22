@@ -6,32 +6,7 @@ class OtherKeyboardFactory:
 
     """ Клавиатура для разных вещей не входящи в основной функционал """
 
-    @staticmethod
-    def menu():
-
-        return KeyBoardFactory.create_reply_keyboard([
-            ["Экономическая игра", "Еще"]
-        ])
-    
-
-
-    @staticmethod
-    def other_func():
-
-        """ Дополнительный фуннкционал """
-
-        return KeyBoardFactory.create_inline_keyboard([
-            ["Отправить сообщение разработчику:-)send_from_created", "Назад:-)back"]
-        ])
-    
-
-
-    @staticmethod
-    def back():
-
-        return KeyBoardFactory.create_reply_keyboard([
-            ["Назад"]
-        ])
+    pass
     
 
 
